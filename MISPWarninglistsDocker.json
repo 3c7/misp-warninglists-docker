@@ -8,6 +8,6 @@
   "config": {},
   "description": "Check IoCs/Observables against MISP Warninglists to filter false positives.",
   "dataTypeList": ["ip", "hash", "domain", "fqdn", "url"],
-  "command": "docker run -i 0x3c7/cortex-analyzer-misp-warninglists python3 mispwarninglists.py"
+  "command": "MISPWarninglistsDocker/run.sh"
 }
 
