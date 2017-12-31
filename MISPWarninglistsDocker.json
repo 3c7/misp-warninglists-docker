@@ -1,0 +1,13 @@
+{
+  "name": "MISPWarninglistsDocker",
+  "author": "Nils Kuhnert, CERT-Bund",
+  "license": "AGPL-V3",
+  "url": "https://github.com/BSI-CERT-Bund/misp-warninglists-analyzer",
+  "version": "1.0",
+  "baseConfig": "MISPWarninglistsDocker",
+  "config": {},
+  "description": "Check IoCs/Observables against MISP Warninglists to filter false positives.",
+  "dataTypeList": ["ip", "hash", "domain", "fqdn", "url"],
+  "command": "docker run -i 0x3c7/cortex-analyzer-misp-warninglists python3 mispwarninglists.py"
+}
+
